@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
     res.header('Access-Control-Allow-Headers', 'Content-Type');
 
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify({ url: req.query.id }));
+    res.send(JSON.stringify({ url: "myQueryString" }));
 });
 
 app.listen(app.get('port'), function() {
