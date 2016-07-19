@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matanwerbner/fed-helper/issues"
   },
-  "homepage": "https://github.com/matanwerbner/fed-helper"
+  "homepage": "https://github.com/matanwerbner/fed-helper",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
